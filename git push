@@ -1,0 +1,114 @@
+mathew@DESKTOP-M9BK6LT MINGW64 ~
+$ cd Desktop/
+
+mathew@DESKTOP-M9BK6LT MINGW64 ~/Desktop
+$ cd Kameshwar/
+
+mathew@DESKTOP-M9BK6LT MINGW64 ~/Desktop/Kameshwar (master)
+$ cd code-repo/
+
+mathew@DESKTOP-M9BK6LT MINGW64 ~/Desktop/Kameshwar/code-repo (master)
+$ git clone https://github.com/mobians/MobiGuardian.git
+Cloning into 'MobiGuardian'...
+remote: Enumerating objects: 1397, done.
+remote: Counting objects: 100% (1121/1121), done.
+remote: Compressing objects: 100% (444/444), done.
+remote: Total 1397 (delta 655), reused 927 (delta 514), pack-reused 276
+Receiving objects: 100% (1397/1397), 234.53 KiB | 2.28 MiB/s, done.
+Resolving deltas: 100% (734/734), done.
+
+mathew@DESKTOP-M9BK6LT MINGW64 ~/Desktop/Kameshwar/code-repo (master)
+$ cd MobiGuardian/
+
+mathew@DESKTOP-M9BK6LT MINGW64 ~/Desktop/Kameshwar/code-repo/MobiGuardian (main)
+$ git checkout feature/nextgen
+Switched to a new branch 'feature/nextgen'
+branch 'feature/nextgen' set up to track 'origin/feature/nextgen'.
+mathew@DESKTOP-M9BK6LT MINGW64 ~/Desktop/Kameshwar/code-repo/MobiGuardian (feature/nextgen)
+$ git branch pvt/kameshwar/automationtask-1
+
+mathew@DESKTOP-M9BK6LT MINGW64 ~/Desktop/Kameshwar/code-repo/MobiGuardian (feature/nextgen)
+$ git checkout pvt/kameshwar/automationtask-1
+Switched to branch 'pvt/kameshwar/automationtask-1'
+
+mathew@DESKTOP-M9BK6LT MINGW64 ~/Desktop/Kameshwar/code-repo/MobiGuardian (pvt/kameshwar/automationtask-1)
+$ git status
+On branch pvt/kameshwar/automationtask-1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  modified:   mobi-test/test-ui/src/test/java/io/mobi/ui/flows/DuitNowSummaryFlow.java
+        modified:   mobi-test/test-ui/src/test/java/io/mobi/ui/pagecomponents/ChooseTypeComponent.java
+        modified:   mobi-test/test-ui/src/test/java/io/mobi/ui/pagecomponents/DateComponent.java
+        modified:   mobi-test/test-ui/src/test/java/io/mobi/ui/pagecomponents/MenuComponent.java
+        modified:   mobi-test/test-ui/src/test/java/io/mobi/ui/pages/DuitNowSummaryPage.java
+        modified:   mobi-test/test-ui/src/test/java/io/mobi/ui/pages/LogoutPage.java
+        modified:   mobi-test/test-ui/src/test/java/io/mobi/ui/testcases/nextgen/portal/duitnow/TestChooseTypeComponent.java
+        modified:   mobi-test/test-ui/src/test/java/io/mobi/ui/testcases/nextgen/portal/duitnow/TestRowsPerPageComponent.java
+        modified:   mobi-test/test-ui/src/test/resources/application.properties
+        modified:   mobi-test/test-ui/src/test/resources/suites/smoke.xml
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+mathew@DESKTOP-M9BK6LT MINGW64 ~/Desktop/Kameshwar/code-repo/MobiGuardian (pvt/kameshwar/automationtask-1)
+$ git add .
+mathew@DESKTOP-M9BK6LT MINGW64 ~/Desktop/Kameshwar/code-repo/MobiGuardian (pvt/kameshwar/automationtask-1)
+$ git status
+On branch pvt/kameshwar/automationtask-1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   mobi-test/test-ui/src/test/java/io/mobi/ui/flows/DuitNowSummaryFlow.java
+        modified:   mobi-test/test-ui/src/test/java/io/mobi/ui/pagecomponents/ChooseTypeComponent.java
+        modified:   mobi-test/test-ui/src/test/java/io/mobi/ui/pagecomponents/DateComponent.java
+        modified:   mobi-test/test-ui/src/test/java/io/mobi/ui/pagecomponents/MenuComponent.java
+        modified:   mobi-test/test-ui/src/test/java/io/mobi/ui/pages/DuitNowSummaryPage.java
+        modified:   mobi-test/test-ui/src/test/java/io/mobi/ui/pages/LogoutPage.java
+        modified:   mobi-test/test-ui/src/test/java/io/mobi/ui/testcases/nextgen/portal/duitnow/TestChooseTypeComponent.java
+        modified:   mobi-test/test-ui/src/test/java/io/mobi/ui/testcases/nextgen/portal/duitnow/TestRowsPerPageComponent.java
+        modified:   mobi-test/test-ui/src/test/resources/application.properties
+        modified:   mobi-test/test-ui/src/test/resources/suites/smoke.xml
+
+
+mathew@DESKTOP-M9BK6LT MINGW64 ~/Desktop/Kameshwar/code-repo/MobiGuardian (pvt/kameshwar/automationtask-1)
+$ git commit -m "nextgen-admin login-duitnow code"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'mathew@DESKTOP-M9BK6LT.(none)')
+
+mathew@DESKTOP-M9BK6LT MINGW64 ~/Desktop/Kameshwar/code-repo/MobiGuardian (pvt/kameshwar/automationtask-1)
+$ git config --global user.email "kameshwar@gomobi.io"
+
+mathew@DESKTOP-M9BK6LT MINGW64 ~/Desktop/Kameshwar/code-repo/MobiGuardian (pvt/kameshwar/automationtask-1)
+$ git config --global user.name "Kameshwar113"
+
+mathew@DESKTOP-M9BK6LT MINGW64 ~/Desktop/Kameshwar/code-repo/MobiGuardian (pvt/kameshwar/automationtask-1)
+$ git commit -m "nextgen-admin login-duitnow code"
+[pvt/kameshwar/automationtask-1 bfadec4] nextgen-admin login-duitnow code
+ 10 files changed, 76 insertions(+), 13 deletions(-)
+
+mathew@DESKTOP-M9BK6LT MINGW64 ~/Desktop/Kameshwar/code-repo/MobiGuardian (pvt/kameshwar/automationtask-1)
+$ git push -f origin pvt/kameshwar/automationtask-1
+Enumerating objects: 54, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (29/29), 4.16 KiB | 852.00 KiB/s, done.
+Total 29 (delta 15), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (15/15), completed with 14 local objects.
+remote:
+remote: Create a pull request for 'pvt/kameshwar/automationtask-1' on GitHub by visiting:
+remote:      https://github.com/mobians/MobiGuardian/pull/new/pvt/kameshwar/automationtask-1
+remote:
+To https://github.com/mobians/MobiGuardian.git
+ * [new branch]      pvt/kameshwar/automationtask-1 -> pvt/kameshwar/automationtask-1
+
