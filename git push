@@ -112,3 +112,44 @@ remote:
 To https://github.com/mobians/MobiGuardian.git
  * [new branch]      pvt/kameshwar/automationtask-1 -> pvt/kameshwar/automationtask-1
 
+*************************************************
+
+*****Existing**********
+Kameshwar@MOBI_REN_LAP006 MINGW64 ~
+$ cd D:
+
+Kameshwar@MOBI_REN_LAP006 MINGW64 /d
+$ cd Kameshwar-existing/
+
+Kameshwar@MOBI_REN_LAP006 MINGW64 /d/Kameshwar-existing
+$ cd existin-repo/
+
+Kameshwar@MOBI_REN_LAP006 MINGW64 /d/Kameshwar-existing/existin-repo
+$ git clone https://github.com/mobians/MobiGuardian.git
+Cloning into 'MobiGuardian'...
+remote: Enumerating objects: 1479, done.
+remote: Counting objects: 100% (1203/1203), done.
+remote: Compressing objects: 100% (481/481), done.
+remote: Total 1479 (delta 701), reused 996 (delta 545), pack-reused 276
+Receiving objects: 100% (1479/1479), 244.81 KiB | 3.55 MiB/s, done.
+Resolving deltas: 100% (780/780), done.
+
+Kameshwar@MOBI_REN_LAP006 MINGW64 /d/Kameshwar-existing/existin-repo
+$ cd MobiGuardian/
+
+Kameshwar@MOBI_REN_LAP006 MINGW64 /d/Kameshwar-existing/existin-repo/MobiGuardian (main)
+$ git checkout feature/existing
+Switched to a new branch 'feature/existing'
+branch 'feature/existing' set up to track 'origin/feature/existing'.
+
+Kameshwar@MOBI_REN_LAP006 MINGW64 /d/Kameshwar-existing/existin-repo/MobiGuardian (feature/existing)
+$ git branch pvt/kameshwar/existingtask-1
+
+Kameshwar@MOBI_REN_LAP006 MINGW64 /d/Kameshwar-existing/existin-repo/MobiGuardian (feature/existing)
+$ git checkout pvt/kameshwar/existingtask-1
+Switched to branch 'pvt/kameshwar/existingtask-1'
+
+Kameshwar@MOBI_REN_LAP006 MINGW64 /d/Kameshwar-existing/existin-repo/MobiGuardian (pvt/kameshwar/existingtask-1)
+$ git status
+On branch pvt/kameshwar/existingtask-1
+nothing to commit, working tree clean
