@@ -1,0 +1,76 @@
+Kameshwar@MOBI_REN_LAP006 MINGW64 ~
+$ cd D:
+
+Kameshwar@MOBI_REN_LAP006 MINGW64 /d
+$ cd Kameshwar-API/
+
+Kameshwar@MOBI_REN_LAP006 MINGW64 /d/Kameshwar-API
+$ cd api_test/
+
+Kameshwar@MOBI_REN_LAP006 MINGW64 /d/Kameshwar-API/api_test
+$ cd MobiGuardian/
+
+Kameshwar@MOBI_REN_LAP006 MINGW64 /d/Kameshwar-API/api_test/MobiGuardian (pvt/kameshwar/api_testing)
+$ git status
+On branch pvt/kameshwar/api_testing
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   mobi-test/test-api/src/test/java/io/mobi/test/api/fund_disbursement/request/PayoutDisbursement.java
+        new file:   mobi-test/test-api/src/test/java/io/mobi/test/api/test/indo/DisbursementBase.java
+        new file:   mobi-test/test-api/src/test/java/io/mobi/test/api/test/payout/PayoutDisbursementTest.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   mobi-test/test-api/src/test/java/io/mobi/test/api/BaseTest.java
+        modified:   mobi-test/test-api/src/test/java/io/mobi/test/api/entity/request/DepositRequest.java
+        modified:   mobi-test/test-api/src/test/java/io/mobi/test/api/fund_disbursement/request/PayoutDisbursement.java
+        modified:   mobi-test/test-api/src/test/java/io/mobi/test/api/test/indo/DisbursementBase.java
+        modified:   mobi-test/test-api/src/test/java/io/mobi/test/api/test/payout/PayoutBaseTest.java
+        modified:   mobi-test/test-api/src/test/java/io/mobi/test/api/test/payout/PayoutDisbursementTest.java
+        modified:   mobi-test/test-api/src/test/resources/application.properties
+
+
+Kameshwar@MOBI_REN_LAP006 MINGW64 /d/Kameshwar-API/api_test/MobiGuardian (pvt/kameshwar/api_testing)
+$ git add .
+
+Kameshwar@MOBI_REN_LAP006 MINGW64 /d/Kameshwar-API/api_test/MobiGuardian (pvt/kameshwar/api_testing)
+$ git status
+On branch pvt/kameshwar/api_testing
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   mobi-test/test-api/src/test/java/io/mobi/test/api/BaseTest.java
+        modified:   mobi-test/test-api/src/test/java/io/mobi/test/api/entity/request/DepositRequest.java
+        new file:   mobi-test/test-api/src/test/java/io/mobi/test/api/fund_disbursement/request/PayoutDisbursement.java
+        new file:   mobi-test/test-api/src/test/java/io/mobi/test/api/test/indo/DisbursementBase.java
+        modified:   mobi-test/test-api/src/test/java/io/mobi/test/api/test/payout/PayoutBaseTest.java
+        new file:   mobi-test/test-api/src/test/java/io/mobi/test/api/test/payout/PayoutDisbursementTest.java
+        modified:   mobi-test/test-api/src/test/resources/application.properties
+
+
+Kameshwar@MOBI_REN_LAP006 MINGW64 /d/Kameshwar-API/api_test/MobiGuardian (pvt/kameshwar/api_testing)
+$ git commit -m "Indo payout fund disbursement api testcases"
+[pvt/kameshwar/api_testing a8e3bfe] Indo payout fund disbursement api testcases
+ 7 files changed, 128 insertions(+), 10 deletions(-)
+ create mode 100644 mobi-test/test-api/src/test/java/io/mobi/test/api/fund_disbursement/request/PayoutDisbursement.java
+ create mode 100644 mobi-test/test-api/src/test/java/io/mobi/test/api/test/indo/DisbursementBase.java
+ create mode 100644 mobi-test/test-api/src/test/java/io/mobi/test/api/test/payout/PayoutDisbursementTest.java
+
+Kameshwar@MOBI_REN_LAP006 MINGW64 /d/Kameshwar-API/api_test/MobiGuardian (pvt/kameshwar/api_testing)
+$ git push -f origin pvt/kameshwar/api_testing
+Enumerating objects: 95, done.
+Counting objects: 100% (77/77), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (51/51), 6.04 KiB | 882.00 KiB/s, done.
+Total 51 (delta 20), reused 24 (delta 11), pack-reused 0
+remote: Resolving deltas: 100% (20/20), completed with 15 local objects.
+remote:
+remote: Create a pull request for 'pvt/kameshwar/api_testing' on GitHub by visiting:
+remote:      https://github.com/mobians/MobiGuardian/pull/new/pvt/kameshwar/api_testing
+remote:
+To https://github.com/mobians/MobiGuardian.git
+ * [new branch]      pvt/kameshwar/api_testing -> pvt/kameshwar/api_testing
+
+Kameshwar@MOBI_REN_LAP006 MINGW64 /d/Kameshwar-API/api_test/MobiGuardian (pvt/kameshwar/api_testing)
+$
